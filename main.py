@@ -37,7 +37,7 @@ class SentimentRequest(BaseModel):
     text: str
 
 # Gemini AI API Key (Replace with your actual key)
-API_KEY = "AIzaSyBVieLcKiLbfKOi_EDoKZzgYUTqn4FiRe8"
+API_KEY = "AIzaSyDTM0Ds5ETj1P7-ztaQUDW8QuThrkyTTdQ"
 API_URL = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key={API_KEY}"
 
 
